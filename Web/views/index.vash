@@ -1,0 +1,10 @@
+﻿@html.extend('layout', function(model){
+    @html.block('content', function(model){
+        <div class="content wf-row">
+            content::wffe
+        </div>
+    })
+    @html.block('script', function(model){
+
+    })
+})

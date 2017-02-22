@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>@model.title</title>
+</head>
+<body>
+    <div class="header">
+        header
+    </div>
+    <div class="content-wrapper">
+        @html.block('content')
+    </div>
+    <div class="footer">
+        footer
+    </div>
+    @html.block('script')
+</body>
+</html>
