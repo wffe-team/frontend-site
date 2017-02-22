@@ -1,8 +1,14 @@
 ﻿@html.extend('layout', function(model){
     @html.block('content', function(model){
-        <div class="content wf-row">
-            content::wffe
-        </div>
+<div class="content wf-row">
+    content::wffe
+    <p>
+        <a href="http://wffe.rd.wanfangdata.com.cn/conference">会议室预定</a>
+    </p>
+    <p>
+        <a href="http://wffe.rd.wanfangdata.com.cn/annualSummary">annualSummary</a>
+    </p>
+</div>
     })
     @html.block('script', function(model){
 
